@@ -1,0 +1,134 @@
+* {
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+.parent {
+  border: 1px solid black;
+  background-color: grey;
+  height: 100vh;
+  width: 100%;
+}
+.bg-layout {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(231, 236, 253);
+  margin: 50px;
+  background-image: url("images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 90%;
+}
+.content {
+  background-color: white;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 27%;
+  border-radius: 20px;
+}
+.header-img img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  width: 100%;
+  height: 100%;
+}
+.img-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 3%;
+}
+.below-img-content h1 {
+  font-size: 1.4rem;
+  align-self: center;
+  font-weight: bold;
+}
+.below-img-content {
+  display: flex;
+  flex-direction: column;
+}
+.below-img-content span {
+  font-size: 0.8rem;
+  align-self: center;
+  color: grey;
+}
+
+.price {
+  column-gap: 3%;
+  background-color: rgb(247, 249, 255);
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 10%;
+  border-radius: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.price-description {
+  width: 30%;
+  margin-top: 2%;
+  margin-right: 15%;
+}
+.price-description span {
+  font-size: 0.75rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: start;
+}
+.price-icon {
+  margin-top: 2%;
+  margin-left: -2%;
+}
+.price-link {
+  margin-left: 25px;
+  margin-top: 3px;
+  margin-top: 2.5%;
+}
+.price-link a {
+  font-size: 0.6rem;
+  text-decoration: underline;
+  font-weight: bold;
+  color: rgb(49, 35, 242);
+}
+.buttons {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  row-gap: 20px;
+}
+
+.payment-button {
+  font-size: 8px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(49, 35, 242);
+  border: none;
+  cursor: pointer;
+  padding: 4%;
+  border-radius: 6px;
+  box-shadow: 11px 4px 29px 3px rgba(207, 207, 232, 1);
+}
+
+.Cancel-button {
+  font-size: 8px;
+  font-weight: bold;
+  color: grey;
+  background-color: white;
+  cursor: pointer;
+  padding: 4%;
+  border-radius: 6px;
+  border: none;
+}
+
+.payment-button:hover {
+  background-color: rgb(103, 27, 255);
+}
+
+.price-link a:hover {
+  color: rgb(103, 27, 255);
+  text-decoration: none;
+}

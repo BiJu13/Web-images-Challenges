@@ -1,0 +1,115 @@
+* {
+  margin: 2;
+  font-family: sans-serif;
+}
+.grandparent {
+  border: 1px solid black;
+  width: 100%;
+  height: 98vh;
+  background-color: grey;
+}
+.parent {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(253, 122, 122);
+  width: 80%;
+  height: 80%;
+  margin-left: 10%;
+  margin-top: 5%;
+  background-image: url("/4/images/bg-intro-desktop.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.content-descrription {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.content {
+  color: white;
+  width: 44%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10%;
+  margin: 5%;
+}
+.content h1 {
+  font-size: 2.2rem;
+}
+.content span {
+  font-size: 0.8rem;
+  font-weight: 540;
+  opacity: 80%;
+}
+
+.content-user-detail {
+  display: flex;
+  flex-direction: column;
+}
+
+.top-button p {
+  font-weight: bold;
+  opacity: 80%;
+  color: white;
+  position: absolute;
+  background-color: rgb(27, 63, 184);
+  top: 15%;
+  padding: 1%;
+  left: 52%;
+  border-radius: 10px;
+  font-size: 0.8rem;
+  width: 23%;
+  align-self: center;
+  padding-left: 5%;
+  box-shadow: 0px 6px 0px 1px rgb(204, 103, 103);
+}
+
+.top-button span {
+  font-size: 0.8rem;
+  font-weight: 100;
+  opacity: 80%;
+}
+
+.user-details {
+  background-color: white;
+  width: 29%;
+  height: 60%;
+  position: absolute;
+  top: 26%;
+  left: 52%;
+  border-radius: 10px;
+}
+.userdetail {
+  width: 80%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10%;
+  row-gap: 30px;
+}
+
+input:invalid {
+  border: 2px solid rgb(175, 40, 40);
+  opacity: 50%;
+}
+input:valid {
+  border: 2px solid black;
+  opacity: 50%;
+}
+.userdetail input {
+  padding: 3%;
+  width: 100%;
+}
+.submit {
+  width: 106%;
+  padding: 3%;
+  background-color: rgb(66, 199, 95);
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  font-weight: bolder;
+  opacity: 50%;
+}
